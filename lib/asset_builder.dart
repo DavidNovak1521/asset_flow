@@ -4,11 +4,7 @@ import 'package:build/build.dart';
 class AssetBuilder implements Builder {
   @override
   Future build(BuildStep buildStep) async {
-    List<String> imagePaths = [
-      'assets/animations/coming_soon.json',
-      'assets/images/logo.png',
-      'assets/images/logo.svg',
-    ];
+    List<String> imagePaths = await getAssetPaths();
 
     String fileContent = _header;
     for (final path in imagePaths) {
