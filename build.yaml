@@ -2,6 +2,7 @@ builders:
   asset_builder:
     import: "package:asset_flow/builder.dart"
     builder_factories: ["assetBuilder"]
-    build_extensions: { ".txt": [".dart"] }
+    build_extensions:
+      { "$package$": ["lib/src/resources/assets/asset_flow.dart"] }
     build_to: source
     auto_apply: root_package

@@ -1,3 +1,0 @@
-assets/animations/coming_soon.json
-assets/images/logo.png
-assets/images/logo.svg
