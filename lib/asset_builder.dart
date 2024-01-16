@@ -1,5 +1,4 @@
-import 'package:asset_flow/utils.dart';
-import 'package:build/build.dart';
+part of 'asset_flow.dart';
 
 class AssetBuilder implements Builder {
   @override

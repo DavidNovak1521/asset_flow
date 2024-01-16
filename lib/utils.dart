@@ -1,4 +1,4 @@
-import 'dart:io';
+part of 'asset_flow.dart';
 
 /// Function to get paths of files in the 'assets' directory and its subdirectories.
 Future<List<String>> getAssetPaths() async {

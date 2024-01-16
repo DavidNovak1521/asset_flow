@@ -1,6 +1,6 @@
 name: asset_flow
 description: Flutter code generator for your assets.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/DavidNovak1521/asset_flow
 repository: https://github.com/DavidNovak1521/asset_flow
 documentation: https://github.com/DavidNovak1521/asset_flow
