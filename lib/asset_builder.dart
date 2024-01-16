@@ -12,7 +12,7 @@ class AssetBuilder implements Builder {
     }
     fileContent += _footer;
 
-    final outputId = AssetId('asset_flow', _path);
+    final outputId = AssetId(buildStep.inputId.package, _path);
 
     await buildStep.writeAsString(outputId, fileContent);
   }

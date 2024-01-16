@@ -4,5 +4,5 @@ builders:
     builder_factories: ["assetBuilder"]
     build_extensions:
       { "$package$": ["lib/src/resources/assets/asset_flow.dart"] }
+    auto_apply: dependents
     build_to: source
-    auto_apply: root_package
