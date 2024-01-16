@@ -1,6 +1,6 @@
 builders:
   asset_builder:
-    import: "package:asset_flow/builder.dart"
+    import: "package:asset_flow/asset_flow.dart"
     builder_factories: ["assetBuilder"]
     build_extensions:
       { "$package$": ["lib/src/resources/assets/asset_flow.dart"] }
