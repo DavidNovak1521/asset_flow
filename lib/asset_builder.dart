@@ -18,13 +18,13 @@ class AssetBuilder implements Builder {
 
   @override
   final buildExtensions = const {
-    r'$package$': [_path]
+    r'$package$': [_path],
   };
 }
 
 const _path = 'lib/src/resources/assets/asset_flow.dart';
 
-const _header = '''  
+const _header = '''
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 // ****************************************
@@ -32,6 +32,8 @@ const _header = '''
 // ****************************************
 
 class AssetFlow {
+  AssetFlow._();
+
 ''';
 
 const _footer = '}\n';
