@@ -5,6 +5,6 @@ import 'dart:io';
 import 'package:build/build.dart';
 
 part 'asset_builder.dart';
-part 'utils.dart';
+part 'utils/utils.dart';
 
 Builder assetBuilder(BuilderOptions options) => AssetBuilder();

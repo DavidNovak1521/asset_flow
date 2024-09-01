@@ -1,3 +1,7 @@
+## 0.0.5
+
+Readme updated, example added.
+
 ## 0.0.4
 
 Collecting some pub points.
