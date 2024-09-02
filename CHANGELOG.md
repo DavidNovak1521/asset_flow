@@ -1,3 +1,7 @@
+## 0.0.7
+
+Folders removed.
+
 ## 0.0.6
 
 Example moved.
