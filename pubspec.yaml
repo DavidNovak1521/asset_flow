@@ -1,6 +1,6 @@
 name: asset_flow
 description: A Flutter code generator that simplifies asset management by automating the generation of asset-related code, making it easier to use resources like images and animations.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/DavidNovak1521/asset_flow
 repository: https://github.com/DavidNovak1521/asset_flow
 documentation: https://github.com/DavidNovak1521/asset_flow
